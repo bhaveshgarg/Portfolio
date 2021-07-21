@@ -207,10 +207,12 @@ div.transbox {
 /* } */
 .header{
     height: 100vh !important;
-    background: url("../assets/bhavesh.jpeg") no-repeat;
+    background: url("../assets/bhavesh.jpeg");
     background-attachment: fixed;
     background-size: cover;
-
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .header1{
     height: 100vh !important;
@@ -228,6 +230,7 @@ div.transbox {
 .newbie{
     margin-top: 25vh;
     padding-bottom: 10vh;
+    font-family: 'Zen Tokyo Zoo', cursive;
 }
 .newbie1{
     margin-top: 3vh;
