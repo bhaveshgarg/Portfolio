@@ -165,7 +165,8 @@ div.transbox {
  .fixed-img-bg {
     width: 100%;
     height: 60vh;
-    background:url("/assets/bg.jpg");
+    background:
+    url("/assets/bg.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -201,6 +202,33 @@ div.transbox {
 .contact{
     background-color: #ff7f5034;
 }
-.testimonials{
-    background-color: #009000;
+/* .testimonials{ */
+    /* background-color:blue; */
+/* } */
+.header{
+    height: 100vh !important;
+    background: url("../assets/bhavesh.jpeg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.header1{
+    height: 100vh !important;
+    /* background-color: #0080807c; */
+}
+.container{
+    color: #008080;
+    /* padding-top: 10vh; */
+    font-family: 'Montserrat', sans-serif;
+
+}
+.top{
+    padding-top: 10vh;
+}
+.newbie{
+    margin-top: 25vh;
+    padding-bottom: 10vh;
+}
+.newbie1{
+    margin-top: 3vh;
 }
